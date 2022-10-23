@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: pink;
+}
+
+
+.parent {
+    position: absolute;
+    top: 0;
+    background-color: blue;
+    height: 50vh;
+    width: 100%;
+}
+
+.child-2 p {
+    display: inline-block;
+}
+
+div.child-2 {
+    box-sizing: border-box;
+    background-color: yellow;
+    display: inline-block;
+    position: absolute;
+    /* padding: 10px; */
+    top: 0;
+    margin: 10px 0 0 10px;
+}
+
+.child-3 {
+    text-decoration: none;
+    background-color: pink;
+    position: absolute;
+    right: 0;
+    margin: 10px 10px 0 0;
+
+}
+
+.child-1 {
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#par {
+    position: relative;
+    bottom: 0;
+    margin: 0;
+}

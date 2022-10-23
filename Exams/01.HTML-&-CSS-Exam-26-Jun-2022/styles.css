@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* ,
+* ::after,
+* ::before {
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0 5%;
+    background: #F5F5F5;
+}
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+}
+
+.header-title {
+    margin: 10% 0 0 0;
+}
+
+.header-sub-title {
+    margin: 0;
+    position: relative;
+    left: 64px;
+    color: #CB2027;
+}
+
+.main {
+    margin: 2% 0;
+    display: flex;
+    height: 75vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    border-radius: 12px;
+    background: white;
+}
+
+.main-section-img img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.main-section-content {
+    padding: 0 15px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section-content-title {
+    align-content: flex-start;
+}
+
+.main-section-content-subcontent {
+    flex-grow: 2;
+    border-top: 1px solid #DB656A;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section-content p {
+    text-align: center;
+}
+
+.main-section-content a {
+    color: #0F1D6A;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
