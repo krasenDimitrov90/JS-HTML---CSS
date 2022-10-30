@@ -1,4 +1,22 @@
 
-Coastal Consideration
-Melissa Freeman, lead designer at Hurlbutt Designs, uses color to create the perfect atmosphere
-Continue reading 
+
+flex-direction: row;                              flex-direction: row;
+
+                     |j                                                 |                                                     
+                     |u                                                 | a
+                     |s                                                 | l
+                     |t                                                 | i
+                     |i                                                 | g
+                     |f                                                 | n
+  align-items        |y                            justify-content      |
+ ---------------------------------------->        --------------------------------------------->
+                     |c                                                 |
+                     |o                                                 | i
+                     |n                                                 | t
+                     |t                                                 | e
+                     |e                                                 | m
+                     |n                                                 | s
+                     |t                                                 |
+                     ||                                                 ||
+                     \/                                                 \/
+

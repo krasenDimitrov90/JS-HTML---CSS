@@ -1,0 +1,30 @@
+form {
+    max-width: 50%;
+    margin: 3rem auto;
+}
+
+.search-container {
+    display: flex;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+input {
+    flex: 1 1 0px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: none;
+}
+
+button {
+    flex: 0 0 0px;
+    background-color: #7E4ECB;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}

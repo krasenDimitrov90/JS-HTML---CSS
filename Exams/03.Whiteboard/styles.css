@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*,
+*::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+    margin: 0 163px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(image/computer-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.header-nav-links {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 3vh 10vw;
+}
+
+.header-nav-links li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+
+.header-content h1,
+.header-content p,
+.header-content a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.header-content-title {
+    font-size: 2.5rem;
+}
+
+.header-content-description {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 55px ;
+}
+
+.header-content h1 {
+    margin: 32px 0 0 0;
+}
+.header-content-description p {
+    text-align: center;
+}
+
+.header-content-description a {
+    text-decoration: none;
+}
+
+.buy-btn {
+    background-color: #00D08E;
+    border: none;
+    padding: 9px 21px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.main {
+    margin: 0 163px;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section article {
+    max-width: 50%;
+}
+
+.main-section-tablet-img img,
+.main-section-hustle-coffe img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-section-hustle {
+    padding-left: 30px;
+}
+
+.main-section-hustle ul {
+    padding: 0;
+}
+
+.main-section-hustle ul li {
+    list-style: none;
+    left: 0;
+}
+
+.main-section-hustle-icons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.main-section-hustle-icons div {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 79%; */
+    align-content:space-around ;
+}
+
+.main-section-hustle-icons div section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    /* margin: 0 4%; */
+}
+
+.main-section-hustle-icons div section img {
+    max-width: 70%;
+}

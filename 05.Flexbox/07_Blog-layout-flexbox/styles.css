@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 4rem 10rem;
+    background-color: #EEEEEE;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia,  serif;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    padding-bottom: 1rem;
+}
+
+.level-1-img {
+    float: right;
+    margin: 0 0 1.1rem 1.1rem;
+    right: 0;
+    top: 0;
+}
+
+.level-2-middleware {
+    display: flex;
+}
+
+.level-2-middleware-quote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: rgba(0,0,0,0.5);
+    width: 50%;
+    padding-left: 2rem;
+    border-left: 1px solid rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.level-2-middleware-paragraph {
+    width: 50%;
+    padding-right: 2rem;
+    margin: 0;
+    border-right: 1px solid rgba(0,0,0,0.25);
+    display: flex;
+}
+
+.level-2-middleware-quote p {
+    margin: 0;
+}
+
+.level-2-middleware-quote p:last-of-type {
+    align-self: flex-end;
+    margin-top: 2rem;
+}
+
+.level-2-img {
+    float: left;
+    margin: 0 1.1rem 1.1rem 0;
+    left: 0;
+    top: 0;
+}
+
+aside section li {
+    color: green;
+}
+
+.container {
+    display: flex;
+}
+
+.container > aside {
+    flex: 1 1 0px;
+    padding-left: 5rem;
+}
+
+.container > main {
+    flex: 1 1 0px;
+    min-width: 70%;
+}

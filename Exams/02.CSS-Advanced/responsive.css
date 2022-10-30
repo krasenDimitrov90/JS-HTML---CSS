@@ -1,0 +1,10 @@
+@media all and (max-width: 600px) {
+    main .left-to-right article {
+        border-radius: 12%;
+        width: 50vw;
+    }
+
+    main .left-to-right article button {
+        display: none;
+    }
+}

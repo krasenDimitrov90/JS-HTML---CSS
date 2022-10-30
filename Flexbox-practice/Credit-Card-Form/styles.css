@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+form {
+    max-width: 30%;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0 auto;
+    box-shadow: 0 5px 20px rgba(220, 220, 220, 0.5);
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+label,
+input,
+button {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    line-height: 25px;
+}
+
+input {
+    padding-left: 5px ;
+    border: 1px solid #bebebe;
+    box-shadow: 0 5px 20px rgba(220, 220, 220, 0.5);
+}
+
+.fieldset {
+    display: flex;
+    margin: 1rem 0px;
+}
+
+
+
+.fieldset > * {
+    flex: 1 1 0px;
+}
+
+
+.credit-card-number-container {
+    flex: 3 3 40px;
+}
+
+button {
+    border: none;
+    background-color: #8653D4;
+    color: white;
+}
+
+.middle > :first-child {
+    margin-right: 1rem;
+}
