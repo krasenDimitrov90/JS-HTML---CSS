@@ -1,22 +1,15 @@
+Home Design
 
+Maine Home
++DESIGN
+Making Hostel Home
+Heather Loeber thinks outside of the box to decorate her one-of-a-kind space
+Continue reading 
 
-flex-direction: row;                              flex-direction: row;
+Warm & Weathered
+Lisa Hincher of The Good Home Interiors and Design infuses a multitude of styles into one cohesive space
+Continue reading 
 
-                     |j                                                 |                                                     
-                     |u                                                 | a
-                     |s                                                 | l
-                     |t                                                 | i
-                     |i                                                 | g
-                     |f                                                 | n
-  align-items        |y                            justify-content      |
- ---------------------------------------->        --------------------------------------------->
-                     |c                                                 |
-                     |o                                                 | i
-                     |n                                                 | t
-                     |t                                                 | e
-                     |e                                                 | m
-                     |n                                                 | s
-                     |t                                                 |
-                     ||                                                 ||
-                     \/                                                 \/
-
+Coastal Consideration
+Melissa Freeman, lead designer at Hurlbutt Designs, uses color to create the perfect atmosphere
+Continue reading 
