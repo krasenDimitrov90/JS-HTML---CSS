@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* ,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    overflow:hidden;
+    font-family: 'Mulish', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-image: url('images/form-background.png');
+    background-size: cover;
+    border-radius: 26px;
+    padding: 25px 30px;
+    width: 44%;
+    box-shadow: 15px 12px 13px 0px grey;
+
+}
+
+.form-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-last-names {
+    display: flex;
+    flex: 1 1 0px;
+}
+
+.first-last-names input {
+    width: 100%;
+}
+
+.fname {
+    margin-right: 5px;
+}
+
+.lname {
+    margin-left: 5px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1 1 0px; */
+}
+
+input[type=checkbox] {
+    margin: 0;
+}
+
+label {
+    font-size: 14px;
+}
+
+input:not([type=checkbox]) {
+    border: 1px solid #DCDDDD;
+    border-radius: 15px;
+    padding: 9px 21px;
+
+}
+
+.form .first-last-names, 
+.form > .input-fields,
+.register-btn,
+.accept-terms {
+    margin: 5px 0px;
+}
+
+.register-submit {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.register-btn {
+    background-color: #AE3C33;
+    color: white;
+    
+}
