@@ -1,0 +1,50 @@
+@media all and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .trainings {
+        flex-direction: column;
+    }
+
+    .trainings div {
+        width: 50%;
+    }
+
+    .instructors-pic {
+        justify-content: center;
+    }
+
+    .classes li {
+        width: 48%;
+    }
+
+    .getInTouch {
+        flex-direction: column;
+    }
+
+    .map img {
+        all: unset;
+        border: 3px solid black;
+        padding: 1rem;
+    }
+
+    .map::after {
+        all: unset;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .about {
+        flex: 0 0 100% !important;
+    }
+}

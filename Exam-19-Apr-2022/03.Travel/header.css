@@ -1,0 +1,41 @@
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+.navigation > * {
+    margin-left: 1rem;
+}
+
+.navigation i {
+    font-size: 1.5rem;
+}
+
+.header-top > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 0.3rem 0;
+}
+
+.header-top > li > p {
+    margin: 0.5rem 0px;
+}
+
+.header-bottom {
+    margin-bottom: 0;
+}
+
+.header-bottom > li {
+    padding: 0.3rem;
+}
+
+.hover:hover {
+    background-color: #B58E10;
+    color: white;
+    cursor: pointer;
+}

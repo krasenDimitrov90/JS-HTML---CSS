@@ -1,0 +1,102 @@
+.main-header {
+    width: 100%;
+    background-image: url('image/slider.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 2rem; */
+    position: relative;
+}
+
+.main-header-icon img{
+    background: linear-gradient( #C9A535, #9B6F10);
+    flex:1 ;
+    padding: 1rem;
+    position: absolute;
+    top: -5.5rem;
+    left: 4rem;
+}
+
+.main-header-content {
+    width: 30%;
+    height: auto;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    padding: 1rem;
+    position: absolute;
+    bottom: 3.5rem;
+    left: 4rem;
+
+}
+
+.btn {
+    border: 0.15rem solid white;
+    background: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.btn.readmore {
+    color: #C5A133;
+}
+
+.btn.readmore:hover,
+.buy-now:hover {
+    background-color: white;
+    color: #FDA800;
+    cursor: pointer;
+}
+
+.main-content {
+    background: linear-gradient(to right, #9B6F10, #C9A535 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 1rem 0;
+}
+
+.main-content > * {
+    max-width: 38%;
+}
+
+.main-content-title {
+    margin: 0;
+}
+
+.main-content-list {
+    list-style-type: none;
+    
+}
+
+.main-footer-list > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.main-footer-list > li img {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.main-footer-list > li p {
+    text-align: center;
+}
+
+.main-footer-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.main-footer-title,
+.main-footer-paragraph {
+    text-align: center;
+} 
+
